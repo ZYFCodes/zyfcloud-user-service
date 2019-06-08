@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC 
+		"-//mybatis.org//DTD//EN" 
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!-- 这个配置使全局的映射器启用或禁用缓存 -->
+		<setting name="cacheEnabled" value="true" />
+	</settings>
+	
+	<!-- 别名配置 -->
+	<typeAliases>
+		<typeAlias alias="role" type="org.zyf.cloud.common.dto.RoleDto" />
+		<typeAlias alias="user" type="org.zyf.cloud.common.dto.UserDto" />
+	</typeAliases>
+</configuration>
