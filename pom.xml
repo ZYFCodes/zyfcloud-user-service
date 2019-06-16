@@ -73,12 +73,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		<!-- druid依赖 -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.0</version>
-        </dependency>
         <!-- 分页插件 -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
@@ -99,7 +93,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		 <!-- 默认源代码和资源文件目录配置 -->
+		<!-- 默认源代码和资源文件目录配置 -->
         <resources>
             <resource>
                 <directory>${project.basedir}/src/main/java</directory>
@@ -125,7 +119,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>../lib/</classpathPrefix>
                             <useUniqueVersions>false</useUniqueVersions>
-                            <mainClass>org.zyf.cloud.user.service.UserApplication</mainClass>
+                            <mainClass>org.zyf.cloud.user.service.UserServiceApplication</mainClass>
                         </manifest>
                     </archive>
                     <excludes>
